@@ -1,6 +1,6 @@
 <?php
 
-//$EmailFrom = "#"; In case of spam problems we could use this.
+$EmailFrom = "#"; 
 $EmailTo = "jesse.cne.roberts@gmail.com";
 $Subject = "Contact Form Submission";
 $Name = Trim(stripslashes($_POST['Name']));
