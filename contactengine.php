@@ -4,7 +4,6 @@ $EmailFrom = "#";
 $EmailTo = "jesse.cne.roberts@gmail.com";
 $Subject = "Contact Form Submission";
 $Name = Trim(stripslashes($_POST['Name']));
-$Tel = Trim(stripslashes($_POST['Tel']));
 $Email = Trim(stripslashes($_POST['Email']));
 $Message = Trim(stripslashes($_POST['Message']));
 
@@ -19,9 +18,6 @@ if (!$validationOK) {
 $Body = "";
 $Body .= "Name: ";
 $Body .= $Name;
-$Body .= "\n";
-$Body .= "Tel: ";
-$Body .= $Tel;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
