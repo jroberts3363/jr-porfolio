@@ -502,7 +502,7 @@ input:focus, textarea:focus {
 
 
 /** Target Tablets Portrait **/
-@media screen and (max-device-width: 769px)  {
+/* @media screen and (max-device-width: 769px)  {
   .container {
     width:700px;
   }
@@ -516,11 +516,11 @@ input:focus, textarea:focus {
     padding-left:50px;
     padding-right:50px;
   }
-}
+} */
 
 
 /** Target Phones **/
-@media screen and (max-device-width: 767px)  {
+/* @media screen and (max-device-width: 767px)  {
 
   .container {
     width:90%;
@@ -539,3 +539,4 @@ input:focus, textarea:focus {
   }
 
 }
+ */
